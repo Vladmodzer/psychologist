@@ -20,5 +20,10 @@ footer {
   display: flex;
   justify-content: center;
   height: 61px;
-  
+
+}
+@media(max-width:425px){
+  .footer__rocket-box {
+    display: none;
+  }
 }
