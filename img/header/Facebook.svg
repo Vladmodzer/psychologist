@@ -1,0 +1,12 @@
+<svg width="63.000000" height="63.000000" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<pattern id="pattern_10_80" patternContentUnits="objectBoundingBox" width="1.000000" height="1.000000">
+			<use xlink:href="#image10_8_0" transform="matrix(0.015625,0,0,0.015625,0,0)"/>
+		</pattern>
+		<image id="image10_8_0" width="64.000000" height="64.000000" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAwJJREFUeJztmr9Pk0EYx7/PvaUQX1hgVjHRkZg4GAcT4w8GGR0YdZCkVmWwpTZuDZNAKdhgoAb+CQdNEDBxcWVAZ6ImmhgTlCKx5e5xkNG3d03fvvc2vU/S6Z6753vfPm+fvNcDHA6Hw+HoWqjZCaVKfoQVTzDJ61BiGAS/HcKMYRxAqF3FYoPAq7l0caeZ6cYGlMuTvX96+hYInAJINK+0/TBDksBKddDPFMYLNZM5RgaUy5O9tWTyNVhcbU1iZGxVh/ybJiYYfZO1RN9iB20eAK4NfK/OmwRqK6BUyY8oJbfjWvZBMEN6SpzPPJz50ChOuylWPNFpmwcAInjKU3d1cXoDmG+EI8kKo7oAvQHEp8LRYgHm07oQrQEE6g9HTdN8U8AzsBrz4J2pCt8Xh0cnZIJOgtQVAE9A2G64AtGALkkiLLWhwVwjwrTysfj4dvHgPxFfjj/vADwtLue4lXSxMoAJe0KJW9n7s2+jyhkbA5jBgulO9kF0mwdiZAARL2fTcy+jzhuL/s6M+pHwZmzkjkUFCMKrXGrmk43csTBAgbcajRcr+cvgo2kocTHs1+9YGECK3weNzVZyFyDlJkgkmz+90BMLA2TS+xo0JpimQUi2K3csfgR79us/AgdZXWpn7lgYkMksHAaP0lA7c8fCAJs4A2wLsE3XGxBpG5xKzzXdyYPmlFYfDap6Irh7GNKxFSCldy6MdTrWACHR3QYoEmfDWKdjDWDF3W2AINXdjwAjnEcg0jYYdILbqD22euqro2MrICycAbYF2MYZYFuAbZwBtgXYxhmgjWDej0BHW2Dgly7GoALocxhibECA9u82rQGK8CYcOdHDTOu6GIMrMrzKDBmOpOj4d2tUrunitAbk0sUdElgJR1Z0CKLnU/fmP2rjTBarDvoZBWy2LisyNvrF3pRJoJEBhfFC7feQP0aKl+L8ODBDEqg8IH6OpVIv6iZzjM8Dji8eT5aW8ivHNzBHGTxs8RodAIDBVQLtMtM6CbmWNSh7h8PhcDgcDgeAv47+7gUttykxAAAAAElFTkSuQmCC"/>
+	</defs>
+	<rect id="Facebook" width="63.000000" height="63.000000" fill="url(#pattern_10_80)" fill-opacity="1.000000"/>
+</svg>

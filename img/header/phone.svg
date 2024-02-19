@@ -1,0 +1,12 @@
+<svg width="57.000000" height="57.000000" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<pattern id="pattern_10_90" patternContentUnits="objectBoundingBox" width="1.000000" height="1.000000">
+			<use xlink:href="#image10_9_0" transform="matrix(0.02,0,0,0.02,0,0)"/>
+		</pattern>
+		<image id="image10_9_0" width="50.000000" height="50.000000" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAABKVJREFUaIHtmV9oHEUcx7+/uSQGYzQ1QrTYIggqtmjAINIWoVqrqJgaMQpFxYfk7pImtsneBVvQ88Ha3F3+tJfmkkZfioimIgZTjI0P1toiItJW2yJY+lD8V621jQ0xd7dfH2rg7nKX7OzuNS/5vO3szHe+X3Z2dmYWWGSRgiBWKkUGjFqhbAN5F4kflaiW9qbw14U2p8OcQQYHG4svJW+IiYI3vZyCvz1Mrmzz9/xcWHvWUfludL4TLJ8wK0ayQwCAEBUp07OnsNb0yPlEOmPBpR4PxyG4e87GgpfafZG9hbGmx6wgvUNbqxKJ5JcivGP+5rzgUckVW7y9vxbCnA4ZQys0HCpJJKc/shYCAGRJwiweKIQxXTKClP012S6QVZoCT0XjwY3u2tInI4iQs15sa5g7w7sDN7thyC6ZsxZxkz0ZqVTC3S74sU1GEArtv7QidV0DgeccO7JJ1tDCcSdiJN9wZsc+WR9E+cyJGCHLnbR3QvbQ+phEyq4YgWPOLdkjI0jAHz1HwRd2xTyCuGNHNpm11hJhzI4QyWMTv5W969ySPWYtUUhI10DgKIB79JRkveELj7tlTJccTwQk+KaWCvHJQoYA8izjDV90n4CHrIpQccQ9S/bIGUQElJTHTyJhRUSISHgwcLu71vTIu7Fq29R5QgQ91mRkiSI+jOw1ytwypkveIABQkph6DYKjlpSIal6WkV27Wq5xxZkmcwZpbY39C5gbhZy0KPbwVEnp+6FQqMgde9aZMwgAGL6uk6Zgs2VBYkN51WQ/ae2Exi08ViqN7z/y3SOPr75FBDUWde87/O3qivH9R8YceNNi3icyw/VFF1sIHtQQfqUrHtx5tZ6MVie9Q1urkonEYQgsT7UCGVpWecZfX7/P9mLUWj+a7BjsWO4xza8EWKbRychEadnzoZdDU7r9afShTyRurATloAhutNyR4IB5LesCL0Yvp5cPDz/rOXv+thdMk82iUE1TfoLi6wF/dFjHk+3x2x0P3m/S/Bwi5RrNjpsKdUFv5DQAROLGQyLSBaJ6dlVzNJX0eDtawr9YEXb0Ikb6jXUQGRVA4yPICxQEBOppkE/MU/c8idZAU/S9+VQdzyiRAaMWlA/0wughwIhSCf9cJ5qWp998BHzREYCPgZxwqpUPArVJFp+M9gca89VxbY7vHgjWpEx+KmL3bMwaJMYUU43tzd1n08td/Vh193WsMD2pA4AsdVM3myv/Z+TRNn/4m5kyx0MrnbZNnSdYhDUgTrupm40QFSbYl17mahAACDREz1C4SmeHaQcCd6Zfux4EuHKsNFF53ToICvhXiz+kXxUkCACE6kPThi/iBdFgdT+jg4K8lXldYIymyNuKqsbyTtMKRKzdHxlNLyp4EADY0hw+VTI99QCAHVYPNPJBYuyfc2Vt2eVXdRcHzEzR7Af4oG5bE/i+NDG1prU1din73lUPAvx/mjkYfAbgttwLxhxtwFPFRSVrNzds/z3X/QUJMgMJiQ4aTzIlLUpxLSA5Dy0EPETFOsPb9Wc+rQUNks72vlcri4sSGySl1kOZ94JyK2D+AVHxcnWxx+vd4+jdWmQRm/wHMbiYZL4vLQ0AAAAASUVORK5CYII="/>
+	</defs>
+	<rect id="Фон" width="57.000000" height="57.000000" fill="url(#pattern_10_90)" fill-opacity="1.000000"/>
+</svg>

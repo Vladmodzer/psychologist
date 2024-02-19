@@ -1,0 +1,49 @@
+header {
+  height: 100px;
+  background: var(--main-light);
+}
+.header__box-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo-box {
+  display: flex;
+  align-items: center;
+}
+.header__phone-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header__phone-link {
+  text-decoration: underline;
+  color: var(--main-dark);
+}
+
+.header__logo {
+  margin-right: clamp(20px, 8vw, 120px);
+  padding: 4px;
+}
+.header__soc-networks-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.phone-link__text {
+  font-size: clamp(5px, 4vw, 36px);
+}
+
+@media (max-width: 570px) {
+  header{
+    display: none !important;
+  }
+  
+ 
+}
+@media (max-width: 768px) {
+  .header__soc-networks-box,
+  .header__phone-box {
+    width: 40%;
+  }
+}

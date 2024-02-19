@@ -1,0 +1,24 @@
+footer {
+  background: var(--main-dark);
+}
+.form__tittle {
+  font-size: clamp(5px, 4vw, 36px);
+}
+.footer__rocket-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.footer__rocket-box img {
+  width: 30px;
+}
+.rocket-box__circle {
+  border-radius: 50%;
+  border: 1px solid var(--main-light);
+  width: 61px;
+  display: flex;
+  justify-content: center;
+  height: 61px;
+  
+}
