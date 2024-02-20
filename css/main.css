@@ -28,7 +28,7 @@ main {
 }
 .main-info-box__pic-text-box {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 
   gap: clamp(14px, 6vw, 200px);
   margin-top: 10%;
@@ -50,12 +50,13 @@ main {
 .main-info-box__tittle1 {
   text-align: center;
   padding-top: var(--name-section-v-paddings);
-  font-size: clamp(14px, 4vw, 66px);
+  font-size: var(--tittle-size);
   font-weight: 100;
 }
 .main-info-box__tittle2 {
   margin-left: 32%;
   font-weight: 100;
+  font-size: var(--tittle-size);
 }
 .main-text-box__link {
   border-radius: clamp(14px, 8vw, 40px);
@@ -77,8 +78,8 @@ main {
 .main-pic-box__img {
   border-radius: 50%;
   object-fit: cover;
-  width: 500px;
-  height: 500px;
+  width: 700px;
+  height: 700px;
   filter: brightness(0.9) hue-rotate(10deg);
 }
 .main-info-box__pic-text-box {
@@ -88,9 +89,6 @@ main {
   padding-top: 55px;
 }
 
-.main-info-box__tittle2 {
-  font-size: clamp(14px, 4vw, 66px);
-}
 .main-name-section__curve-right {
   position: absolute;
   right: 0;
@@ -105,7 +103,7 @@ main {
 .about__title {
   color: var(--main-dark);
   padding-top: clamp(14px, 8vw, 150px);
-  font-size: clamp(14px, 4vw, 80px);
+  font-size: var(--tittle-size);
   font-weight: 400;
   line-height: 88px;
   letter-spacing: 0%;
@@ -173,7 +171,7 @@ main {
 }
 .help-box__tittle {
   color: var(--main-dark);
-  font-size: clamp(14px, 4vw, 80px);
+  font-size: var(--tittle-size);
   font-weight: 400;
   text-align: center;
   margin-bottom: clamp(20px, 8vw, 160px);
@@ -244,7 +242,7 @@ main {
 .main-price-section__tittle1,
 .main-price-section__tittle2 {
   color: var(--main-light);
-  font-size: clamp(14px, 4vw, 80px);
+  font-size: var(--tittle-size);
   font-weight: 400;
   text-align: center;
 }
@@ -275,12 +273,12 @@ main {
   padding-bottom: clamp(20px, 12vw, 181px);
 }
 .clients-think__tittle1 {
-  font-size: clamp(14px, 4vw, 80px);
+  font-size: var(--tittle-size);
   font-weight: 400;
   text-align: center;
 }
 .clients-think__tittle2 {
-  font-size: clamp(14px, 4vw, 80px);
+  font-size: var(--tittle-size);
   font-weight: 400;
   margin-left: 27%;
   text-align: center;
@@ -301,7 +299,7 @@ main {
 }
 .thinks-container__border p {
   padding: 15% 5%;
-  font-size: clamp(10px, 1vw, 28px);
+  font-size: clamp(14px, 1vw, 28px);
 }
 .clients-think__think-box {
   display: flex;
@@ -379,17 +377,15 @@ main {
 .main__name-menu.fixed {
   position: fixed;
   top: 0;
-  background: var(--main-light);
   width: 100%;
   left: 0;
   justify-content: center;
-  box-shadow: -8px 1px 25px 5px rgba(0, 0, 0, 0.25);
-  opacity: 0.969;
+  box-shadow: -8px 1px 8px 1px rgba(0, 0, 0, 0.25);
   color: var(--main-dark);
+  background: rgba(255, 255, 255, 0.34);
+  backdrop-filter: blur(10px);
 }
-.active {
-  background: var(--main-dark);
-}
+
 .hidden {
   display: none;
 }
@@ -420,16 +416,14 @@ main {
 }
 /* MEDIA */
 @media (max-width: 1876px) {
-  .main-pic-box__img {
-    width: 400px;
-    height: 400px;
-  }
-  .main-text-box__inner {
-    max-width: 500px;
-  }
+  /* .main-pic-box__img {
+    width: 650px;
+    height: 650px;
+  } */
+
   .main-text-box__link {
     padding: clamp(8px, 3vw, 16px);
-    width: 100%;
+    width: 60%;
   }
   .about-text-box__img-box {
     width: 400px;
@@ -442,12 +436,48 @@ main {
     text-align: center;
   }
 }
+@media (max-width: 1765px) {
+  .main-pic-box__img {
+    width: 650px;
+    height: 650px;
+  }
+}
+@media (max-width: 1708px) {
+  .main-pic-box__img {
+    width: 600px;
+    height: 600px;
+  }
+}
+@media (max-width: 1696px) {
+  .main-pic-box__img {
+    width: 550px;
+    height: 550px;
+  }
+}
 @media (max-width: 1618px) {
+  .main-pic-box__img {
+    width: 500px;
+    height: 500px;
+  }
+}
+@media (max-width: 1595px) {
+  .main-pic-box__img {
+    width: 450px;
+    height: 450px;
+  }
+}
+@media (max-width: 1441px) {
+  .main-pic-box__img {
+    width: 400px;
+    height: 400px;
+  }
+  .main-text-box__inner {
+    max-width: 700px;
+  }
 }
 @media (max-width: 1283px) {
-  .main-pic-box__img {
-    width: 250px;
-    height: 250px;
+  .main-text-box__inner {
+    max-width: 600px;
   }
   .about-text-box__img-box {
     width: 300px;
@@ -457,16 +487,43 @@ main {
     height: 300px;
   }
 }
-@media (max-width: 1250px) {
+@media (max-width: 1200px) {
+  .main-text-box__inner {
+    max-width: 600px;
+  }
+}
+@media (max-width: 1100px) {
+  .main-text-box__inner {
+    max-width: 500px;
+  }
+}
+@media (max-width: 964px) {
+  .main-text-box__link {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .main-text-box__inner {
+    max-width: 400px;
+  }
+}
+@media (max-width: 807px) {
+  .main-text-box__inner {
+    max-width: 400px;
+  }
+  .main-pic-box__img {
+    width: 300px;
+    height: 300px;
+  }
 }
 @media (max-width: 895px) {
   .main-text-box__inner {
     max-width: 300px;
   }
-  .main-pic-box__img {
+  /* .main-pic-box__img {
     width: 200px;
     height: 200px;
-  }
+  } */
   .about-text-box__img-box {
     width: 200px;
   }
@@ -475,7 +532,18 @@ main {
     height: 170px;
   }
 }
-
+@media (max-width: 688px) {
+  .main-pic-box__img {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media (max-width: 618px) {
+  .main-pic-box__img {
+    width: 200px;
+    height: 200px;
+  }
+}
 @media (max-width: 598px) {
   .about-text-box__img-box {
     width: 170px;
@@ -541,14 +609,23 @@ main {
     max-width: 199px;
   }
   .main-pic-box__img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
   }
   .main-text-box__inner {
-    max-width: 147px;
+    max-width: 200px;
   }
   .main-pic-text-box__pic-box {
     align-self: center;
+  }
+}
+@media (max-width: 470px) {
+  .main-pic-box__img {
+    width: 150px;
+    height: 150px;
+  }
+  .main-text-box__inner {
+    max-width: 150px;
   }
 }
 @media (max-width: 425px) {
@@ -623,15 +700,24 @@ main {
     width: 100%;
     align-items: center;
   }
-  
 }
 @media (max-width: 375px) {
-  
- 
   .thinks-container__container2 {
     align-self: center;
   }
   .inner1__info-box {
     width: 284px;
+  }
+  .main-pic-box__img {
+    width: 100px;
+    height: 100px;
+  }
+  .main-text-box__inner {
+    max-width: 160px;
+  }
+}
+@media (max-width: 320px) {
+  .main-info-box__tittle2 {
+    margin-left: 0;
   }
 }

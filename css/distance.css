@@ -1,3 +1,4 @@
 :root {
   --name-section-v-paddings: clamp(14px, 10vw, 227px);
+  --tittle-size: clamp(16px, 4vw, 66px);
 }

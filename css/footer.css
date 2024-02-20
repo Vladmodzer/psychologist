@@ -2,7 +2,7 @@ footer {
   background: var(--main-dark);
 }
 .form__tittle {
-  font-size: clamp(5px, 4vw, 36px);
+  font-size: var(--tittle-size);
 }
 .footer__rocket-box {
   width: 100%;
